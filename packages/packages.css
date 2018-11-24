@@ -16,38 +16,44 @@ main {
     padding: 32px;
 }
 
-.plan:hover {
-    border: 3px solid red;
+.package:hover,
+.package:active {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-color: red;
 }
 
-.plus-plan {
-    background: #CFF8D8;
-}
-
-.free-plan {
-    background: #E6F8EC;
-}
-
-.premium-plan {
-    background: #1A4728;
-}
-
-.plus-plan__title,
-.free-plan__title {
+.package__title {
     color: black;
 }
 
-.premium-plan__title {
+.package__subtitle {
+    color: #979797;
+}
+
+.package__info {
+    border: 1px solid #0e4f1f;
+    padding: 16px;
+    color: #0e4f1f;
+    font-size: 20px;
+    background: white;
+}
+
+#plus {
+    background: rgba(213, 255, 220, 0.95);
+}
+
+#free {
+    background: rgba(234, 252, 237, 0.95);
+}
+
+#premium {
+    background: rgba(14, 79, 31, 0.95);
+}
+
+#premium .package__title {
     color: white;
 }
 
-h2 {
-    color: #B3BDB9;
-}
-
-p {
-    border: 1px solid black;
-    padding: 16px;
-    color: black;
-    background: #FCFCFE;
+#premium .package__subtitle {
+    color: #bbb;
 }
