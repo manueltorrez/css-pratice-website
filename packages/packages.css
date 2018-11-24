@@ -54,6 +54,11 @@ main {
     text-align: right;
 }
 
+#free:hover,
+#free:active {
+    border-left-color: red;
+}
+
 #premium {
     background: rgba(14, 79, 31, 0.95);
 }
