@@ -1,0 +1,53 @@
+main {
+    padding-top: 32px;
+}
+
+.package {
+    border: 4px solid #0e4f1f;
+    border-left: none;
+    margin: 16px 0;
+    width: 80%;
+}
+
+.package a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 32px;
+}
+
+.plan:hover {
+    border: 3px solid red;
+}
+
+.plus-plan {
+    background: #CFF8D8;
+}
+
+.free-plan {
+    background: #E6F8EC;
+}
+
+.premium-plan {
+    background: #1A4728;
+}
+
+.plus-plan__title,
+.free-plan__title {
+    color: black;
+}
+
+.premium-plan__title {
+    color: white;
+}
+
+h2 {
+    color: #B3BDB9;
+}
+
+p {
+    border: 1px solid black;
+    padding: 16px;
+    color: black;
+    background: #FCFCFE;
+}
