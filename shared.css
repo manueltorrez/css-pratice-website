@@ -9,9 +9,9 @@ body {
 
 .backdrop {
     position: fixed;
-    display: none;
-    height: 100%;
-    width: 100%;
+    /* display: none; */
+    height: 100vh;
+    width: 100vw;
     z-index: 100;
     top: 0;
     left: 0;
