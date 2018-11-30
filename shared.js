@@ -14,7 +14,7 @@ let openModal = () => {
 
 let closeModal = () => {
     backdrop.classList.remove('open');
-    modal.classList.remove('open');
+    if(modal) modal.classList.remove('open');
 }
 
 let showMobileNav = () => {
@@ -26,7 +26,7 @@ for(el of selectPlanButtons) {
     el.addEventListener('click', openModal);
 }
 
-modalNoButton.addEventListener('click', closeModal);
+if(modalNoButton) modalNoButton.addEventListener('click', closeModal);
 
 toggleButton.addEventListener('click', showMobileNav);
 
