@@ -16,7 +16,7 @@ main {
     /* background-image: radial-gradient(circle at top left, red, blue, green); */
     width: 100vw;
     height: 53vh;
-    margin-top: 2.75rem;
+    margin-top: 2rem;
     position: relative;
 }
 
@@ -29,7 +29,7 @@ main {
     font-size: 1.6rem;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 40rem) and (min-height: 40rem) {
     #product-overview {
         height: 60vh;
     }
