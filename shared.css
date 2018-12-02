@@ -59,8 +59,7 @@ body {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1.5rem;
-    height: 1.5rem;
+    height: 2.5rem;
     display: inline-block;
     vertical-align: middle;
 }
@@ -123,7 +122,7 @@ body {
     .main-nav {
         display: inline-block;
         text-align: right;
-        width: calc(100% - 122px);
+        width: calc(100% - 44px);
         vertical-align: middle;
     }
 }
