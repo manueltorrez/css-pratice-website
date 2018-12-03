@@ -46,6 +46,11 @@ main {
     border-color: #2ddf5c;
 }
 
+.signup-form :invalid {
+    border-color: red !important;
+    background: #faacac; 
+}
+
 .signup-form input[type="checkbox"] {
     border: 1px solid #ccc;
     background: white;
