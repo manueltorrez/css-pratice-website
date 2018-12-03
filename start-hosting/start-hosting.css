@@ -2,9 +2,17 @@ main {
     padding-top: 2rem;
 }
 
+.signup-form {
+    padding: 1rem;
+}
+
+.signup-form label {
+    font-weight: bold;
+}
+
 .signup-title {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     color: #ff5454;
 }
 
@@ -13,4 +21,23 @@ main {
 .signup-form select {
     display: block;
     margin-top: 1rem;
+    width: 100%;
+}
+
+.signup-form input[id*="terms"],
+.signup-form input[id*="terms"] + label {
+    display: inline-block;
+    width: auto;
+}
+
+.signup-form button[type="submit"] {
+    display: block;
+    margin-top: 1rem;
+}
+
+@media (min-width: 40rem) {
+    .signup-form {
+        margin: auto;
+        width: 25rem;
+    }
 }
