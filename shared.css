@@ -1,18 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,800');
 
+@font-face {
+    font-family: 'Halyard Text';
+    src: url('/fonts/Halyard\ Text\ Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Halyard Display';
+    src: url('/fonts/Halyard\ Display\ Regular.ttf');
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Halyard Text', sans-serif;
     margin: 0;
+    
 }
 
 main {
     min-height: calc(100vh - 3.5rem - 8rem);
     margin-top: 3.5rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Halyard Display';
 }
 
 .backdrop {

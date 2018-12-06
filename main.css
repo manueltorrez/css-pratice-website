@@ -21,11 +21,12 @@ main {
 
 #product-overview h1 {
     color: white;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Halyard Display', sans-serif;
     position: absolute;
     bottom: 5%;
     left: 3%;
     font-size: 1.6rem;
+    letter-spacing: 0.05em;
 }
 
 @media (min-width: 40rem) and (min-height: 40rem) {
