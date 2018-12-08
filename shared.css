@@ -49,11 +49,9 @@ h1, h2, h3 {
     top: 0;
     left: 0;
     z-index: 1;
-}
-
-.main-header > div {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .toggle-button {
@@ -82,13 +80,11 @@ h1, h2, h3 {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: 600;
-    height: 2.5rem;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .main-header__brand img{
-    height: 100%;
+    height: 2.5rem;
+    vertical-align: middle;
 }
 
 .main-nav {
@@ -99,10 +95,10 @@ h1, h2, h3 {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
 }
 
 .main-nav__item {
-    display: inline-block;
     margin: 0 1rem;
 }
 
@@ -143,10 +139,11 @@ h1, h2, h3 {
     }
 
     .main-nav {
-        display: inline-block;
+        /*display: inline-block;
         text-align: right;
         width: calc(100% - 44px);
-        vertical-align: middle;
+        vertical-align: middle; */
+        display: flex;
     }
 }
 
