@@ -193,6 +193,9 @@ h1, h2, h3 {
     margin: 10% auto;
     padding: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .mobile-nav__item {
