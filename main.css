@@ -42,7 +42,7 @@ main {
 .section-title {
     color: #2ddf5c;
     text-align: center;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.01rem;
 }
 
 .plan {
