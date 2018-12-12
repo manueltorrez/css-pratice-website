@@ -43,13 +43,15 @@ h1, h2, h3 {
 
 .backdrop {
     position: fixed;
-    display: none;
+    /* display: none */
+    opacity: 0;
     height: 100vh;
     width: 100vw;
-    z-index: 100;
+    z-index: -100;
     top: 0;
     left: 0;
     background: rgba(0,0,0, 0.5);
+    transition: opacity 0.2s;
 }
 
 .main-header {
@@ -249,6 +251,7 @@ h1, h2, h3 {
     display: block !important;
     opacity: 1 !important;
     transform: translateY(0) !important;
+    z-index: 100;
 }
 
 @media (min-width: 40rem) {
